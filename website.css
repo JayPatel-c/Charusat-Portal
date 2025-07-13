@@ -1,0 +1,472 @@
+ .site-header {
+    background: #090b96;
+    color: white;
+    padding: 40px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* center the entire group */
+    position: relative;
+}
+
+/* Left Logo */
+.Image3 {
+    position: absolute;
+    left: 20px;
+    width: 100px;
+}
+
+/* Title stays centered */
+.portal-title {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+
+.site-footer{
+    background:  #090b96;
+    color: white;
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 180%;
+}
+.body1{
+    background-color: #aedeef;
+}
+
+.navbar {
+    text-align: center;
+    font-family:Arial, sans-serif ;
+    background-color: white;
+}
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color:  #090b96;
+    font-size: large;
+    padding: 1rem 1rem;
+    display: inline-block;
+    transition: background 0.2s;
+    
+}
+
+.navbar a:hover {
+    background: #f0eded;
+    color:  #090b96;
+    border-radius: 4px;
+}
+.img {                                     /*  Index Poster */
+    text-align: center;
+    background: white;
+    padding: 2px;
+}
+.img2 {                       /*  25 year logo */ 
+    width: 400px; 
+    height: auto;
+    padding: 60px;
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+}
+
+@keyframes fadeIn {              /*  25 year logo */ 
+    to {
+      opacity: 1 ;
+    }
+}
+.img-text-row{                /*  25 year logo */ 
+    display: flex;
+    align-items: center; /* vertically center */
+    gap: 50px; /* space between img and text */
+}
+ 
+
+.side-text {                  /*  about page  */
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+ .contact{                      /* footer contact */
+    font-size: medium;
+    padding: 2px;
+}
+.contact1{
+    font-size: small;
+    padding: 2.5px;
+}
+.c2025{
+    text-align: left;
+    align-items: center;
+    font-size: medium;
+}
+
+/* .login{
+    font-style:'Segoe UI', sans-serif;
+    text-align: center;
+    color: white;
+    background-color:#090b96;
+    padding: auto;
+
+} */
+
+.form{
+    text-align:center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.aboutcharusat{
+    text-align: left;
+    display:flex;
+    font-size: large;
+}
+
+.high{
+    color: rgb(181, 73, 33);
+    text-align: center;
+}
+
+.event{
+    background-color: #090b96;
+    color: white;
+    text-align: center;
+}
+.ganesh{
+    text-align: center;
+}
+.NA{
+    background-color:bisque ;
+}
+.dashboard{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    text-align: center;
+    color: #2e11ec;
+    box-shadow: #2e11ec;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.dashboard:hover{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+    text-align: center;
+    color: white;
+    box-shadow: #2e11ec;
+    background-color:  #090b96;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginbox{
+    font-style: italic;
+    font-size:large;
+    text-align: center;
+    color: #2008bf;
+    box-shadow: #2e11ec;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.event2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+    text-align: center;
+    color: #2008bf;
+    box-shadow: #2e11ec;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 40px;
+    width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.eventbox{
+    font-style: italic;
+    font-size:large;
+    align-items: center;
+    color: #2008bf;
+    box-shadow: #2e11ec;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.event2 :hover, .eventbox:hover {
+      transform: scale(1.05);
+      background-color:rgb(255, 255, 255);
+      color: #e62e2e;
+    }
+    
+    .profile{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size:large;
+        align-items: center;
+        text-align: center;
+        color: #2008bf;
+        box-shadow: #2e11ec;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 20px;
+        width: 340px;
+        margin: 20px auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        
+    }
+    .resultbox{
+        font-style: italic;
+        font-size:large;
+        text-align: center;
+        color: #2008bf;
+        box-shadow: #2e11ec;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 20px;
+        width: 300px;
+        margin: 20px auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+/* FAQ's */
+
+.faq-section {
+    padding: 30px;
+    background-color: #ffffff;
+    color: #000066;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000066;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.faq-item h3 {
+    color: #000066;
+    font-size: 20px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* login */
+.form-main {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 102, 0.2);
+}
+
+.form-main h2 {
+    text-align: center;
+    color: #000066;
+    margin-bottom: 20px;
+}
+
+.form-main form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-main label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.form-main input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form-main button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000066;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form-main button:hover {
+    background-color: #000099;
+}
+ .acc{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+ }
+
+ /* Contact us */
+.contact-main {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 102, 0.2);
+    color: #000066;
+    
+}
+
+.contact-title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.contact-info {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-info a {
+    color: #000066;
+    text-decoration: none;
+}
+
+.contact-form h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #000066;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #000099;
+}
+
+/* Result */
+.result-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 102, 0.2);
+    text-align: center;
+}
+
+.result-title {
+    font-size: 24px;
+    color: #000066;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.result-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000080;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.result-form input {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.forgot {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: #0000cc;
+}
+
+.button-group {
+    margin-top: 15px;
+}
+
+.clear-button,
+.submit-button {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.clear-button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.submit-button {
+    background-color: green;
+    color: white;
+}
