@@ -8,7 +8,7 @@
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: center; /* center the entire group */
+   justify-content: center;  /* center the entire group */
     position: relative;
 }
 
@@ -17,6 +17,7 @@
     position: absolute;
     left: 20px;
     width: 100px;
+    padding: 20px;
 }
 
 /* Title stays centered */
@@ -92,6 +93,11 @@
     /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
+.mission{
+    text-align: center; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
  .contact{                      /* footer contact */
     font-size: medium;
     padding: 2px;
@@ -106,37 +112,32 @@
     font-size: medium;
 }
 
-/* .form{
-    text-align:center;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 10px;
-} */
-
-.aboutcharusat{
+/* .aboutcharusat{
     text-align: left;
     display:flex;
     font-size: large;
+} */
+ .aboutcharusat {
+    display: flex;
+    justify-content: center;   /* Centers the content horizontally */
+    align-items: center;       /* Aligns items vertically (optional) */
+    gap: 2rem;                 /* Adds space between image and text */
+    padding: 2rem;             /* Optional padding */
+    text-align: left;          /* Keeps the text aligned left within the text box */
+    flex-wrap: wrap;           /* Ensures it wraps on small screens */
 }
+.aboutcharusat-container {
+    display: flex;
+    justify-content: center;
+}
+
 
 .high{
     color: rgb(181, 73, 33);
     text-align: center;
 }
 
-/* .event{
-    background-color: #090b96;
-    color: white;
-    text-align: center;
-} */
-/* .ganesh{
-    text-align: center;
-} */
-/* .NA{
-    background-color:bisque ;
-} */
+
 .dashboard{
     font-family:Arial, Helvetica, sans-serif;
     font-size:x-large;
@@ -214,7 +215,7 @@
     }
     
     .profile{
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size:large;
         align-items: center;
         text-align: center;
@@ -229,21 +230,7 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         
     }
-    /* .resultbox{
-        font-size:large;
-        text-align: center;
-        color: #2008bf;
-        box-shadow: #2e11ec;
-        background-color: rgb(255, 255, 255);
-        border: 1px solid #ccc;
-        border-radius: 20px;
-        padding: 20px;
-        width: 300px;
-        margin: 20px auto;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    } */
 
-/* FAQ's */
 
 .faq-section {
     padding: 30px;
@@ -407,7 +394,7 @@
     font-size: 24px;
     color: #000066;
     margin-bottom: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .result-form label {
@@ -415,7 +402,7 @@
     margin-top: 15px;
     font-weight: bold;
     color: #000080;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
